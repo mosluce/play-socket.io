@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "app",
+      "script": "app.js",
+      "watch": true,
+      "ignore_watch": [
+        "\\.git",
+        "\\.idea",
+        "node_modules",
+        "public"
+      ],
+      "env": {
+        "MONGO_URL": "mongodb://localhost/play-socketio"
+      }
+    }
+  ]
+}

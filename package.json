@@ -7,10 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "mosluce <mosluce@gmail.com>",
   "license": "ISC",
   "repository": "https://github.com/mosluce/play-socket.io",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.5",
+    "mongoose-timestamp": "^0.5.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0",
     "socket.io": "^1.4.5"
-  }
+  },
+  "private": true
 }
